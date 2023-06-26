@@ -44,19 +44,24 @@
         <div class="button-container">
             <button type="button" onclick="window.location.href = 'hmtlfile.html';">Home</button>
             <button type="button" onclick="window.location.href = 'gallery_page.html';">Gallery</button>
-            <button type="button" style="border: solid orange;">Interview</button>
-            <button type="button" onclick="window.location.href = 'about_page.html';" >About Me</button>
+            <button type="button" class="button_style">Interview</button>
+            <button type="button" onclick="window.location.href = 'about_page.html';">About Me</button>
         </div>
         <br>
         <h2 style="text-align: center;">Watch my interview with AnA Deluxe Detail </h2>
-        <video style="align-items: center; display: flex; justify-content: center; max-width: 100%; max-height: 100%; width: 100%;
-        " controls>
+        <div class = "video-container">
+            <video controls>
             <source src="videoplayback.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        </div>
+        
         <br>
     </div>
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
+
+<!-- style="align-items: center; display: flex; justify-content: center; max-width: 80%; max-height: 80%; width: 80%;
+        " -->

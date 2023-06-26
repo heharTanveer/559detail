@@ -93,6 +93,7 @@ select {
 h3 {
 font-size: 30px;
 color: bisque;
+align-items: centercs;
 }
 
 h4 {
@@ -112,6 +113,8 @@ color: gray;
     
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
   
   .button-container button {
@@ -132,17 +135,22 @@ color: gray;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-wrap: wrap;
+
   }
 
   .image-item {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
   }
 
   .image-item img {
     max-width: 100%;
     max-height: 100%;
+    flex-wrap: wrap;
   }
 
   .about-container {
@@ -168,4 +176,16 @@ color: gray;
   .about-description p {
     font-size: 16px;
     line-height: 1.5;
+  }
+
+  .button_style{
+    border: solid orange;
+  }
+  
+  .video-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
   }
