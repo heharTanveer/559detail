@@ -8,13 +8,16 @@
 
 h1 {
     margin-top: 60px;
-    color: white;
+    /* white: f5f5f5 */
+    color: #f5f5f5;
     font-family:'Futura', sans-serif;;
     font-size: 50px;
 }
 
 body {
-    background-color: black;
+  /* black: #0a0a0a */
+    background-color: #0a0a0a;
+      overflow-x: hidden;
 }
 
 .logo {
@@ -44,39 +47,47 @@ h3 {
   font-size: 30px;
   color: bisque;
   align-items: centercs;
-  }
+}
   
-  h4 {
+h4 {
   font-size: 20px;
   color: bisque;
-  }
+}
   
-  p {
+p {
   color: white;
-  }
+}
   
-  p1 {
+p1 {
   color: gray;
-  }
+}
   
-  .button-container {
-      
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      flex-direction: row;
-    }
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
     
-    .button-container button {
-      border-radius: 5px;;
-      flex-grow: 1;
-      margin-right: 10px;
-    }
+.button-container button {
+  border-radius: 5px;;
+  flex-grow: 1;
+  margin-right: 10px;
+}
   
-    button{
-      
-      background-color: gray; color: white; border: solid orange"
-    }
+button{    
+  background-color: gray; color: white; border: solid orange"
+}
+ 
+
+.button_style{
+  transition: background-color 1s ease;
+}
+
+.button_style:hover {
+  background-color: black;
+}
+  
 
 /* Sign up page CSS */
   
@@ -172,10 +183,6 @@ input, select {
     line-height: 1.5;
   }
 
-  .button_style{
-    border: solid orange;
-  }
-  
   /* Interview CSS */
   .video-container {
     display: flex;
