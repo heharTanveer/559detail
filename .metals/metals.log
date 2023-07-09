@@ -30,3 +30,6 @@ INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (e
 2023.07.06 23:54:50 WARN  no build tool detected in workspace '/Users/tanveer.hehar/Desktop/W/559detailing'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 Jul 07, 2023 5:09:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.07.08 20:36:31 INFO  Shutting down server
+2023.07.08 20:36:31 INFO  shutting down Metals
+2023.07.08 20:36:31 INFO  Exiting server
