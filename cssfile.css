@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 27px;
   color: bisque;
   align-items: centercs;
 }
@@ -76,19 +76,32 @@ p1 {
   border: none;
 }
   
-button{    
-  background-color: gray; color: white; border: solid orange"
+button{
+  background-color: gray; color: white; border: solid orange;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
- 
 
 .button_style{
-  transition: background-color 1s ease;
+  transition: background-color 0.5s ease;
 }
 
 .button_style:hover {
   background-color: black;
 }
-  
+
+/* btn-primary{
+  background-color: gray; color: white; border: solid orange
+  border:  orange;
+  max-width: 15rem; 
+  padding-top: 5px; 
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+btn-primary:hover{
+  background-color: grey;
+} */
 
 /* Sign up page CSS */
   
@@ -192,3 +205,28 @@ input, select {
     flex-wrap: wrap;
     align-items: center;
   }
+
+
+  footer {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 1rem;
+}
+
+footer img {
+    max-width: 50%;
+}
+
+footer p {
+    border-top: #333333;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+}
+
+footer div {
+    flex: 1;
+}
