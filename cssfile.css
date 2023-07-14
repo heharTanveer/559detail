@@ -70,7 +70,6 @@ p1 {
 }
     
 .button-container button {
-  margin-top: 10px;
   flex-grow: 1;
   margin-right: 0px;
   border: none;
@@ -88,6 +87,14 @@ button{
 
 .button_style:hover {
   background-color: black;
+}
+
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+  .button-container {
+    flex-direction: column;
+  }
 }
 
 /* btn-primary{
@@ -188,6 +195,7 @@ input, select {
   }
 
   .about-description h2 {
+    padding-bottom: 10px;
     font-size: 24px;
     margin-bottom: 10px;
   }
